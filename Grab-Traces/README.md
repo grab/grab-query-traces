@@ -29,6 +29,3 @@ If you are interested to access it, please email grab.prestroid@grabtaxi.com wit
 In addition, please ensure that the following [NDA][NDA_grab_traces_dataset.pdf] form is signed and e-mailed to us. 
 
 We will send the data over to your specified email address once approved.
-
-### TPC-DS hive queries dataset
-Please see [tpc-ds](TPC-DS/)
