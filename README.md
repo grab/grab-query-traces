@@ -1,34 +1,17 @@
-# prestroid-sigmod-double-blind-release
+# Grab-Traces & TPC-DS Presto query plans
 
-## Introduction
-We are open sourcing our MTX Presto query plan dataset. 
-Instructions needed to read the data are attached alongside the data itself. 
+## Dataset
+We are releasing both our Grab-Traces & TPC-DS dataset, as part of our conference submission to Sigmod 2021.
 
-**We have set up this temporary site to access the data for Sigmod's double blinded review phase**
+There are 2 query plan dataset in this repository
 
-## How to access the data?
+Please see [grab-traces](Grab-Traces/)
 
-### MTX-Traces queries dataset
-We will release the data only on a request basis.
-
-All plans have been encoded to remove company confidential details, yet preserve the shape, structure and contextual usage of tokens within the plans. 
-
-| Columns | Description |
-| ------- | ----------- |
-| logical_plan_anonymized | Logical plan after running Presto command <br> explain (format graphviz) <query> | 
-| total_cpu_time_lg_norm | Recorded total CPU timing in minutes |
-
-If you are interested to access it, please email mtx-prestroid@googlegroups.com with the following details
-- Full name
-- Company
-- Purpose of usage
-- Email address
-
-We will send the data over to your specified email address once approved.
-
-### TPC-DS hive queries dataset
 Please see [tpc-ds](TPC-DS/)
 
-### Licensing 
-All MTX related data is under the MIT open source licensing scheme. 
+## Licensing 
+All data is subjected to the MIT open source licensing scheme. 
 For more details, please see [licensing](LICENSE)
+
+## Citations
+TODO: Fill in this page once paper is published

@@ -1,8 +1,13 @@
-## TPC-DS hive queries dataset
+# TPC-DS hive queries dataset
 
-You may download the query plans from this repository. 
+## Introduction
+We are open sourcing our TPC-DS query plans dataset. 
 
-There are a total of 5K queries constructed from 83 publicly available TPC-DS templates. 
+Our TPC-DS contains a total of 5K queries constructed from 83 publicly available TPC-DS templates. 
+
+You may download the query plans and the instructions needed to read the data from this repository. 
+
+A sample schema of the plans is listed below.
 
 | Columns | Description |
 | ------- | ----------- |
@@ -10,5 +15,3 @@ There are a total of 5K queries constructed from 83 publicly available TPC-DS te
 | query | Raw query strings |
 | query_name | TPC-DS query template name |
 | total_cpu_time | Recorded total CPU timing in minutes |
-
-**Please drop us a mail with your details if you are unable to download this dataset. We will respond with the dataset.**
